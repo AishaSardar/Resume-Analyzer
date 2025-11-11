@@ -1,0 +1,117 @@
+# 🤖 AI Resume Analyzer Pro
+
+**AI Resume Analyzer Pro** is an intelligent web app built using **Streamlit** that helps users evaluate how well their resume matches a specific job description.
+It identifies missing keywords, analyzes skill strengths, and provides a visual summary — making it easier to tailor resumes for better job matching.
+
+---
+
+## 🧠 Features
+
+✅ Upload your **resume (PDF/TXT)**
+✅ Paste any **job description**
+✅ Get a **match score (%)** based on TF-IDF and cosine similarity
+✅ View **missing keywords** from the job description
+✅ Visualize **skill strengths by category** (Programming, ML, DL, NLP, etc.)
+✅ Personalized **recommendations** for improvement
+
+---
+
+## ⚙️ Technologies Used
+
+* Python
+* Streamlit
+* Scikit-learn
+* NLTK
+* PyPDF2
+* Matplotlib
+
+---
+
+## 🪜 Installation Guide
+
+Follow these steps to run the project locally in **VS Code** or any IDE:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/AI_Resume_Analyzer_Pro.git
+cd AI_Resume_Analyzer_Pro
+```
+
+### 2️⃣ Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 3️⃣ Activate the Environment
+
+**Windows PowerShell:**
+
+```bash
+Set-ExecutionPolicy Unrestricted -Scope Process
+venv\Scripts\activate
+```
+
+**Mac/Linux:**
+
+```bash
+source venv/bin/activate
+```
+
+### 4️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+If you don’t have a requirements.txt yet, create one by running:
+
+```bash
+pip freeze > requirements.txt
+```
+
+---
+
+## ▶️ Run the App
+
+```bash
+streamlit run app.py
+```
+
+After running, Streamlit will show a **local URL** — open it in your browser to use the app.
+
+---
+
+## 📊 Output Preview
+
+* Overall Match Score
+* Missing Keywords List
+* Skill Category Strength Chart
+* Recommendations Section
+
+
+
+---
+
+## 💡 Example Use
+
+1. Upload your resume (PDF).
+2. Paste a job description from LinkedIn or Indeed.
+3. Click **Analyze Resume**.
+4. Instantly see how well your resume fits the job!
+
+---
+
+## 🧩 Project Status
+
+✅ Completed — serves as Phase 2 of the AI Resume Analyzer series.
+Next version (Phase 3) adds **semantic intelligence** and **multi-resume analysis**.
+
+---
+
+## 👩‍💻 Author
+
+Ayesha Azeem — Final Year BS Artificial Intelligence Student
+📧 ayeshaazeem0107@gmail.com
+🗂️ [Advance version of Resume Analyzer pro. Repository → AI_Resume_Analyzer_ProPlus]
